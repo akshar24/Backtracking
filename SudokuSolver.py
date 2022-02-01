@@ -63,11 +63,3 @@ preScan(grid)
 solveSudoku(*getNext(0, 0, grid), grid)
 for row in grid:
     print(row)
-
-def test(ds):
-    if isinstance(ds, dict):
-        for key, val in ds.items():
-            print(key, val)
-    else:
-        for index, val in enumerate(ds):
-            print(index + 1, val)
