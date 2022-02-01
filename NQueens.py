@@ -41,5 +41,5 @@ def printSolution(solution, N):
                 print(0, end  = " ")
         print()
 
-N=9
+N=99
 solution = place(list(), 0, N)
